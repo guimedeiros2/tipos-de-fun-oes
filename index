@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Áreas</h1>
+    </header>
+        <br><br>
+        <fieldset>
+            <div class="calcular__triangulo">
+                <h1>Triângulo</h1>
+                <label for="Digite">Digite a base:</label>
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Calculadora de Áreas</title>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            margin: 20px;
+                        }
+                
+                        label {
+                            display: block;
+                            margin-top: 10px;
+                        }
+                
+                        input {
+                            width: 100%;
+                            padding: 8px;
+                            margin-top: 5px;
+                        }
+                
+                        button {
+                            margin-top: 10px;
+                            padding: 10px;
+                            background-color: #4CAF50;
+                            color: white;
+                            border: none;
+                            border-radius: 5px;
+                            cursor: pointer;
+                        }
+                    </style>
+                </head>
+                <body>
+                
+                    <h1>Calculadora de Áreas</h1>
+                
+                    <label for="ladoQuadrado">Lado do Quadrado:</label>
+                    <input type="number" id="ladoQuadrado">
+                    <button onclick="calcularAreaQuadrado()">Calcular Área do Quadrado</button>
+                    <p id="resultadoQuadrado"></p>
+                
+                    <label for="raioCirculo">Raio do Círculo:</label>
+                    <input type="number" id="raioCirculo">
+                    <button onclick="calcularAreaCirculo()">Calcular Área do Círculo</button>
+                    <p id="resultadoCirculo"></p>
+                
+                    <label for="baseTriangulo">Base do Triângulo:</label>
+                    <input type="number" id="baseTriangulo">
+                    <label for="alturaTriangulo">Altura do Triângulo:</label>
+                    <input type="number" id="alturaTriangulo">
+                    <button onclick="calcularAreaTriangulo()">Calcular Área do Triângulo</button>
+                    <p id="resultadoTriangulo"></p>
+                
+                    <script src="script.js"></script>
+                </body>
+                </html>
+                
+                
